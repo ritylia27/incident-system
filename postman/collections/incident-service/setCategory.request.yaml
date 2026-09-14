@@ -1,0 +1,8 @@
+$kind: http-request
+name: setCategory
+url: http://localhost:8080/incident/1/category
+method: PATCH
+body:
+  type: text
+  content: SOFTWARE
+order: 4502087278632151

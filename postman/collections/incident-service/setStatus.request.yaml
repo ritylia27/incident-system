@@ -1,0 +1,8 @@
+$kind: http-request
+name: setStatus
+url: http://localhost:8080/incident/1/status
+method: PATCH
+body:
+  type: text
+  content: CLOSED
+order: 4502949310209059

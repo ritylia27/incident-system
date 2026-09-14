@@ -1,0 +1,12 @@
+$kind: http-request
+name: create
+url: http://localhost:8080/incident
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Не работает принтер",
+        "description": "Принтер не включается"
+    }
+order: 772304941545

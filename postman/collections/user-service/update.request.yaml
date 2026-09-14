@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8081/user/1
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "role": "ANALYST"
+    }
+order: 4190833611465195

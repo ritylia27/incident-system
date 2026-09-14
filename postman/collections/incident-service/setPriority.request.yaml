@@ -1,0 +1,8 @@
+$kind: http-request
+name: setPriority
+url: http://localhost:8080/incident/1/priority
+method: PATCH
+body:
+  type: text
+  content: LOW
+order: 4503170817719723

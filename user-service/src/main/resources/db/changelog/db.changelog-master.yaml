@@ -1,0 +1,40 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/db.changelog-master.yaml
+  - changeSet:
+      id: 001-create-users-table
+      author: margo
+      changes:
+        - createTable:
+            tableName: users
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+
+              - column:
+                  name: role
+                  type: VARCHAR(50)
+
+              - column:
+                  name: user_full_name
+                  type: VARCHAR(255)
+
+              - column:
+                  name: user_login
+                  type: VARCHAR(255)
+
+              - column:
+                  name: phone_number
+                  type: VARCHAR(50)
+
+              - column:
+                  name: email
+                  type: VARCHAR(50)
+
+              - column:
+                  name: workplace
+                  type: VARCHAR(255)

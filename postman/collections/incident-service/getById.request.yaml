@@ -1,0 +1,5 @@
+$kind: http-request
+name: getById
+url: http://localhost:8080/incident/1
+method: GET
+order: 2364763474157090

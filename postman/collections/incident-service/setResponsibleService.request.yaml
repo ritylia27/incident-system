@@ -1,0 +1,8 @@
+$kind: http-request
+name: setResponsibleService
+url: http://localhost:8080/incident/1/responsibleservice
+method: PATCH
+body:
+  type: text
+  content: ADMINISTRATORS_SERVICE
+order: 4503339489212521

@@ -1,0 +1,5 @@
+$kind: http-request
+name: delete
+url: http://localhost:8080/incident/1
+method: DELETE
+order: 4503353992807254

@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8081/user
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "role": "ADMIN",
+        "userFullName": "Ivaniv Ivan Ivanovch",
+        "userLogin": "vancho",
+        "phoneNumber": "+79999999999",
+        "email": "vancho@bmstu.ru",
+        "workplace": "Support service"
+    }
+order: 1787425468798

@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8081/role
+method: GET
+order: 4471882305629959

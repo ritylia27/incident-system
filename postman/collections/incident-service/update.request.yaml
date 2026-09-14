@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8080/incident/1
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "description": "Принтер включается, но не горит табло"
+    }
+order: 4292478972965362
